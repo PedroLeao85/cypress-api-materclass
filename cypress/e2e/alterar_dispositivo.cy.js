@@ -48,6 +48,7 @@ describe('Alterar dispositivo' , () => {
             .then((respostaPut) => {
                 expect(respostaPut.status).to.equal(200)
                 expect(respostaPut.body.name).to.equal(payloadPut.name)
+                
             })
  
             })
